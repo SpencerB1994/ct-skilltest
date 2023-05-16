@@ -5,18 +5,26 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <script src="javascript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Los Angeles Mountains</title>
     </head>
+
     <body>
         <h1>Los Angeles Mountains</h1>
 
         <header>
-            <nav>
-                <ul>
+            <div class="mobile-container">
+            <nav class="topnav">
+                <ul id="myLinks">
                     <li><a href="#">01. History</a></li>
                     <li><a href="#">02. Team</a></li>
                 </ul>
             </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
 
             <img src="images/logo-75px.png" alt="Mountain circular vector logo image." class="image1">
         </header>

@@ -45,7 +45,7 @@ html, body {
 
     header nav ul li {
         display: inline;
-        text-align: center;
+        text-align: left;
         padding-top: 30px;
         align-items: center;
     }
@@ -56,10 +56,50 @@ html, body {
         color: white;
         font-family: 'Lato', sans-serif;
         text-transform: uppercase;
-        margin-right: 20px;
     }
 
     body > img {
         width: 100vw;
+    }
+
+    /* Mobile navigation */
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        background-color: none;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .topnav a {
+        color: white;
+        background-color: grey;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        background-color: #4d4d4d;
+        color: white;
+    }
+
+    .fa-bars {
+        color: black;
+        align-items: end;
     }
 }
